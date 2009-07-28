@@ -1,0 +1,7 @@
+= cheddargetter-client
+
+Description goes here.
+
+== Copyright
+
+Copyright (c) 2009 Marc Guyer. See LICENSE for details.
