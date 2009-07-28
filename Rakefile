@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "cheddargetter-client"
-    gem.summary = %Q{TODO}
-    gem.email = "marc@sproutbox.com"
+    gem.summary = %Q{CheddarGetter Client is a wrapper for the CheddarGetter API}
+    gem.email = "marc@cheddargetter.com"
     gem.homepage = "http://github.com/marcguyer/cheddargetter-client"
     gem.authors = ["Marc Guyer"]
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings

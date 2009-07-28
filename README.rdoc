@@ -1,6 +1,6 @@
 = cheddargetter-client
 
-Description goes here.
+CheddarGetter Client is a wrapper for the CheddarGetter API
 
 == Copyright
 
