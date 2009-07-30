@@ -1,8 +1,6 @@
 require 'rubygems'
 require 'httparty'
 require 'libxml'
-require 'pp'
-require 'json'
 
 module CheddarGetter
 	
@@ -136,10 +134,6 @@ module CheddarGetter
 			
 		end
 		
-		def to_json
-			return self.to_a.to_json
-		end
-		
 		def plan(code = nil)
 			raise ArgumentException 'Can\'t get a plan from a response that isn\'t of type \'plans\'' if @responseType != 'plans'
 			raise 'This response contains more than one plan so you need to provide the code for the plan you wish to get' if code.blank? && @document.root.children.length > 1
@@ -236,10 +230,6 @@ module CheddarGetter
 			}
 			return array
 		end
-		
-	end
-	
-	class ResponseException < Exception
 		
 	end
 	
