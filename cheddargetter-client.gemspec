@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{cheddargetter-client}
-  s.version = "0.1.0"
+  s.version = "0.2.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Marc Guyer"]
-  s.date = %q{2009-07-28}
+  s.date = %q{2009-07-30}
   s.email = %q{marc@cheddargetter.com}
   s.extra_rdoc_files = [
     "LICENSE",
@@ -18,6 +18,8 @@ Gem::Specification.new do |s|
      "LICENSE",
      "README.rdoc",
      "Rakefile",
+     "VERSION.yml",
+     "cheddargetter-client.gemspec",
      "lib/cheddargetter-client.rb",
      "test/cheddargetter-client_test.rb",
      "test/test_helper.rb"
