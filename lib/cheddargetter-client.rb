@@ -96,7 +96,7 @@ module CheddarGetter
 			path = path.gsub(/(\w)\/+/, '\1/')
 			
 			if (args != nil)
-				return Request.post(path, :query => args).to_s
+				return Request.post(path, :body => args).to_s
 			else
 				return Request.get(path).to_s
 			end
