@@ -1,7 +1,0 @@
-= cheddargetter-client
-
-CheddarGetter Client is a wrapper for the CheddarGetter API
-
-== Copyright
-
-Copyright (c) 2009 Marc Guyer. See LICENSE for details.
